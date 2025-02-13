@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ElRawda.Core\ElRawda.Core.csproj" />
+    <ProjectReference Include="..\ElRawda.Repository\ElRawda.Repository.csproj" />
+    <ProjectReference Include="..\ElRawda.Shared\ElRawda.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

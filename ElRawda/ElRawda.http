@@ -1,0 +1,6 @@
+@ElRawda_HostAddress = http://localhost:5211
+
+GET {{ElRawda_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

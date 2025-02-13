@@ -1,0 +1,11 @@
+﻿global using ElRawda.Core.Services;
+global using Microsoft.AspNetCore.Mvc;
+global using ElRawda.Shared.Errors;
+global using System.Net;
+global using System.Text.Json;
+global using ElRawda.Core.Repositories;
+global using ElRawda.Middlwares;
+global using ElRawda.Repository;
+global using ElRawda.Repository.Data;
+global using ElRawda.Service;
+global using Microsoft.EntityFrameworkCore;
